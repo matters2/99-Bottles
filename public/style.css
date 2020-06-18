@@ -1,0 +1,37 @@
+
+.container {
+  background-image: url("back.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Permanent Marker;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }  
+
+h1 {
+    transition: transform 0.3s;
+    font-family: Permanent Marker;
+    color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+h1:hover {
+    transform: scale(1.2);
+}
+
+a {
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    display: inherit;
+}
